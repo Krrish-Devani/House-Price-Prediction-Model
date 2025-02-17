@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>House Price Prediction</title>
+    <link rel="stylesheet" href="/static/style.css">
+
+</head>
+<body>
+    <div class="container">
+        <h1>House Price Prediction</h1>
+        <form id="prediction-form">
+            <label>Enter Features:</label>
+            <input type="text" name="feature1" placeholder="Median Income (measured in tens of thousands of US Dollars)" required>
+            <input type="text" name="feature2" placeholder="House Age" required>
+            <input type="text" name="feature3" placeholder="Total Rooms" required>
+            <input type="text" name="feature4" placeholder="Number of Bedrooms" required>
+            <input type="text" name="feature5" placeholder="Population" required>
+            <input type="text" name="feature6" placeholder="Households" required>
+            <input type="text" name="feature7" placeholder="latitude" required>
+            <input type="text" name="feature8" placeholder="longitude" required>
+            <button type="submit">Predict</button>
+        </form>
+        <h2 id="result"></h2>
+    </div>
+    <script src="/static/script.js"></script>
+</body>
+</html>
